@@ -12,7 +12,7 @@ site_theme               : "default" # The available themes options are "default
 title                    : "Tang Dier - PhD in Mathematics"
 title_separator          : "-"
 name                     : &name "Tang Dier"
-description              : PhD Year 1. Department of Mathematics. The University of Hong Kong.
+description              : PhD in Mathematics.
 url                      : https://academicpages.github.io # The base hostname & protocol for your site e.g. "https://[your GitHub username].github.io",
                                                            # or if you already have some other page hosted on Github then use "https://[your GitHub username].github.io/[Your Repo Name]"
 baseurl                  : "" # the subpath of your site, e.g. "/blog"
@@ -26,9 +26,9 @@ author:
   avatar           : "profile.png"
   name             : "Tang Dier"
   pronouns         : # example: "she/her"  
-  bio              : "PhD Year 1. The University of Hong Kong."
+  bio              : "PhD in Mathematics, Year 1."
   location         : "Hong Kong, China"
-  employer         : "Department of Mathematics. The University of Hong Kong"
+  employer         : "The University of Hong Kong"
   uri              : # URL
   email            : "tangde_math@connect.hku.hk" 
 
