@@ -9,7 +9,7 @@ redirect_from:
 
 ## About Me
 
-I am a first-year PhD student in the [Department of Mathematics](https://hkumath.hku.hk/web/current/pg-course.php) at **The University of Hong Kong**, supervised by [Professor Han Guangyue](https://hkumath.hku.hk/~ghan/).
+I am a first-year PhD student in the [Department of Mathematics](https://hkumath.hku.hk/web/current/pg-course.php) at **The University of Hong Kong**, supervised by Professor [Han Guangyue](https://hkumath.hku.hk/~ghan/).
 
 I obtained my Bachelor's degree in 2025 from the **TAQ Science Experimental Class in Mathematics** at **Jilin University**.
 
@@ -17,11 +17,17 @@ I obtained my Bachelor's degree in 2025 from the **TAQ Science Experimental Clas
 
 My current research focuses on:
 
--
--
--
+- Information-Theoretic Methods in AI
+- Machine Learning Theory and Practice
+- AI for Math and Data Science
 
 More specific interests will be updated as my PhD study progresses.
+
+## Past Awards
+
+- [Baogang Excellent Student Award](http://www.bsef.baosteel.com/#/newsdetail?nodeid=15&id=8789), 2024.
+- [Jilin University Top 10 Students], 2024.
+
 
 ## Education
 
