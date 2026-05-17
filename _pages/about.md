@@ -38,9 +38,15 @@ More specific interests will be updated as my PhD study progresses.
 
 ## Contact
 
-- **Email**: `tangde_math@connect.hku.hk` for academic, `tangde@163.com` for others.
+- **Academic correspondence** (research, collaboration, seminars):  
+  `tangde_math@connect.hku.hk`
+
+- **Other inquiries** (general, outreach, non-academic cooperation):  
+  `tangde3132@163.com`
+
 - **GitHub**: [github.com/tangdier03](https://github.com/tangdier03)
-- **Office**: P206, Graduate House. The University of Hong Kong.
+
+- **Office**: P206, Graduate House, The University of Hong Kong
 
 ---
 
