@@ -26,9 +26,9 @@ author:
   avatar           : "profile.png"
   name             : "Tang Dier"
   pronouns         : # example: "she/her"  
-  bio              : "Short biography for the left-hand sidebar"
-  location         : "Earth"
-  employer         : "Red Brick University"
+  bio              : "PhD Year 1. The University of Hong Kong."
+  location         : "Hong Kong, China"
+  employer         : "Department of Mathematics. The University of Hong Kong"
   uri              : # URL
   email            : "tangde_math@connect.hku.hk" 
 
