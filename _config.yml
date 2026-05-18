@@ -23,7 +23,7 @@ repository               : "academicpages/academicpages.github.io"
 #               Additional customization can be done by editing /_includes/author-profile.html
 author:
   # Biographic information
-  avatar           : assets/white shirt.jpg
+  avatar           : white.jpg
   name             : "Tang Dier"
   pronouns         : # example: "she/her"  
   bio              : "PhD in Mathematics, Year 1."
