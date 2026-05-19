@@ -27,7 +27,7 @@ More specific interests will be updated as my PhD study progresses.
 
 ## Academic Service
 
-Conference Reviewer for [ISIT (2026)](https://2026.ieee-isit.org/).
+Conference Reviewer for [IEEE ISIT2026](https://2026.ieee-isit.org/).
 
 
 
