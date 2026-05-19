@@ -26,7 +26,7 @@ More specific interests will be updated as my PhD study progresses.
 
 ## Past Awards
 
-- [Baogang Excellent Student Award](http://www.bsef.baosteel.com/#/newsdetail?nodeid=15&id=8789), 2024.
+- [Baosteel Education Foundation-Excellent Student Award](http://www.bsef.baosteel.com/#/newsdetail?nodeid=15&id=8789), 2024.
 - [Jilin University Top 10 Students](https://jdb.ihwrm.com/index/article/articleinfo.html?doc_id=4646229), 2024.
 
 
