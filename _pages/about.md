@@ -9,6 +9,8 @@ redirect_from:
 
 ## About Me
 
+<img src="https://tangdier03.github.io/images/white.jpg" alt="Profile Photo" style="width:200px; border-radius:50%;">
+
 I am a first-year PhD student in [Department of Mathematics](https://hkumath.hku.hk/web/current/pg-course.php) at **The University of Hong Kong**, supervised by Professor [Han Guangyue](https://hkumath.hku.hk/~ghan/).
 
 I obtained my Bachelor's degree in 2025 from the **TAQ Science Experimental Class in Mathematics** at **Jilin University**.
