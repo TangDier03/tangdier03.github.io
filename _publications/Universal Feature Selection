@@ -2,7 +2,6 @@
 title: "Universal Feature Selection with Noisy Observations and Weak Symmetry Conditions"
 collection: publications
 category: manuscripts
-permalink: /publication/2026-universal-feature-selection
 excerpt: 'This paper relaxes the restrictive symmetry conditions adopted in prior work and extends the universal feature selection framework to accommodate noisy observations as well as attribute structures that may exhibit directional preferences. Our findings highlight the robustness of the selection framework against second-moment deviations and observation noise, thereby broadening its applicability across diverse inference tasks.'
 date: 2026-05-10
 venue: 'arXiv preprint'
