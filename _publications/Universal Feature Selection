@@ -2,13 +2,22 @@
 title: "Universal Feature Selection with Noisy Observations and Weak Symmetry Conditions"
 collection: publications
 category: manuscripts
-permalink: /publication/2009-10-01-paper-title-number-1
-excerpt: 'This paper relaxes the restrictive symmetry conditions adopted in [4], [5] and extends their universal feature selection framework to accommodate noisy observations as well as attribute structures that may exhibit directional preferences. Our findings highlight the robustness of the selection framework against second-moment deviations and observation noise, thereby broadening its applicability across diverse inference tasks and providing a theoretically grounded tool for universal feature selection in practical scenarios.'
+permalink: /publication/2026-universal-feature-selection
+excerpt: 'This paper relaxes the restrictive symmetry conditions adopted in prior work and extends the universal feature selection framework to accommodate noisy observations as well as attribute structures that may exhibit directional preferences. Our findings highlight the robustness of the selection framework against second-moment deviations and observation noise, thereby broadening its applicability across diverse inference tasks.'
 date: 2026-05-10
-venue: 'arXiv'
-slidesurl: 'https://academicpages.github.io/files/slides1.pdf'
-paperurl: 'https://academicpages.github.io/files/paper1.pdf'
-bibtexurl: 'https://academicpages.github.io/files/bibtex1.bib'
-citation: 'Tang D, Han G. Universal Feature Selection with Noisy Observations and Weak Symmetry Conditions[J]. arXiv preprint arXiv:2605.09396, 2026.'
+venue: 'arXiv preprint'
+arxiv: 'https://arxiv.org/abs/2605.09396'
+paperurl: 'https://arxiv.org/pdf/2605.09396.pdf'
+citation: 'Tang, D., & Han, G. (2026). Universal Feature Selection with Noisy Observations and Weak Symmetry Conditions. arXiv preprint arXiv:2605.09396.'
 ---
-The contents above will be part of a list of publications, if the user clicks the link for the publication than the contents of section will be rendered as a full page, allowing you to provide more information about the paper for the reader. When publications are displayed as a single page, the contents of the above "citation" field will automatically be included below this section in a smaller font.
+
+## Abstract
+
+This paper relaxes the restrictive symmetry conditions adopted in prior work and extends the universal feature selection framework to accommodate noisy observations as well as attribute structures that may exhibit directional preferences. Our findings highlight the robustness of the selection framework against second-moment deviations and observation noise, thereby broadening its applicability across diverse inference tasks.
+
+## Links
+
+- [arXiv](https://arxiv.org/abs/2605.09396)
+- [PDF Download](https://arxiv.org/pdf/2605.09396.pdf)
+
+## Citation
