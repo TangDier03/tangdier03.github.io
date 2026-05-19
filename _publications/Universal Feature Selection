@@ -8,12 +8,10 @@ arxiv: 'https://arxiv.org/abs/2605.09396'
 paperurl: 'https://arxiv.org/pdf/2605.09396.pdf'
 ---
 
-## Abstract
 
 This paper relaxes the restrictive symmetry conditions adopted in prior work and extends their universal feature selection framework to accommodate noisy observations as well as attribute structures that may exhibit directional preferences. Our findings highlight the robustness of the selection framework against second-moment deviations and observation noise, thereby broadening its applicability across diverse inference tasks and providing a theoretically grounded tool for universal feature selection in practical scenarios.
 
 
-## Links
 
 - [arXiv](https://doi.org/10.48550/arXiv.2605.09396)
 - [PDF Download](https://arxiv.org/pdf/2605.09396.pdf)
