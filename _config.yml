@@ -27,11 +27,11 @@ author:
   name             : "Tang Dier"
   pronouns         : # example: "she/her"  
   bio              : "PhD in Mathematics, Year 1."
-  employer         : "The University of Hong Kong"
   location         : "Hong Kong, China"
+  employer         : "The University of Hong Kong"
   uri              : # URL
-  email            : "tangde_math@connect.hku.hk" 
-
+  email            : "tangde_math@connect.hku.hk"
+  
   # # Academic websites
   # academia         : # URL
   # arxiv            : # URL - Update with the correct link to your profile
