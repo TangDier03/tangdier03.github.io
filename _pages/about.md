@@ -7,8 +7,6 @@ redirect_from:
   - /about.html
 ---
 
-## About Me
-
 I am a first-year PhD student in [Department of Mathematics](https://hkumath.hku.hk/web/current/pg-course.php), **University of Hong Kong**, supervised by Professor [Han Guangyue](https://hkumath.hku.hk/~ghan/).
 
 I obtained my B.S. degree from the **TAQ Science Experimental Class in Mathematics** at **Jilin University** in 2025.
@@ -58,4 +56,4 @@ Conference Reviewer for [IEEE ISIT2026](https://2026.ieee-isit.org/).
 
 ---
 
-*This page will be continuously updated with my publications, notes, and talk materials.*
+*This page will be continuously updated with my publications, experiences, and presentation materials.*
