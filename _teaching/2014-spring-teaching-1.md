@@ -1,5 +1,5 @@
 ---
-title: "MATH 1011: University Mathematics II"
+title: "MATH 1011: University Mathematics I"
 collection: teaching
 type: "Undergraduate course"
 permalink: /teaching/2014-spring-teaching-1
