@@ -13,7 +13,9 @@ citation: 'Tang, D., & Han, G. (2026). Universal Feature Selection with Noisy Ob
 
 ## Abstract
 
-This paper relaxes the restrictive symmetry conditions adopted in prior work and extends the universal feature selection framework to accommodate noisy observations as well as attribute structures that may exhibit directional preferences. Our findings highlight the robustness of the selection framework against second-moment deviations and observation noise, thereby broadening its applicability across diverse inference tasks.
+This paper relaxes the restrictive symmetry conditions adopted in [4], [5] and extends their universal feature selection framework to accommodate noisy observations as well as attribute structures that may exhibit directional preferences......
+Our findings highlight the robustness of the selection framework against second-moment deviations and observation noise, thereby broadening its applicability across diverse inference tasks and providing a theoretically grounded tool for universal feature selection in practical scenarios.
+
 
 ## Links
 
