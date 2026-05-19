@@ -33,20 +33,20 @@ More specific interests will be updated as my PhD study progresses.
 ## Education
 
 - **PhD** in Mathematics, The University of Hong Kong, 2025–present.
-- **B.Sc.** in Mathematics, Jilin University (TAQ Class), 2021–2025.
+- **B.S.** in Mathematics, Jilin University (TAQ Class), 2021–2025.
 
 
 ## Contact
 
-- **Academic correspondence** (research, collaboration, seminars):  
+- **Academic correspondence**:  
   `tangde_math@connect.hku.hk`
 
-- **Other inquiries** (general, outreach, non-academic cooperation):  
+- **Non-academic cooperation**:  
   `tangde3132@163.com`
 
 - **GitHub**: [github.com/tangdier03](https://github.com/tangdier03)
 
-- **Office**: P206, Graduate House, The University of Hong Kong
+- **Office**: P206, Graduate House, The University of Hong Kong.
 
 ---
 
