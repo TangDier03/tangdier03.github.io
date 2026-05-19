@@ -9,17 +9,17 @@ redirect_from:
 
 ## About Me
 
-I am a first-year PhD student in [Department of Mathematics](https://hkumath.hku.hk/web/current/pg-course.php) at **The University of Hong Kong**, supervised by Professor [Han Guangyue](https://hkumath.hku.hk/~ghan/).
+I am a first-year PhD student in [Department of Mathematics](https://hkumath.hku.hk/web/current/pg-course.php), **The University of Hong Kong**, supervised by Professor [Han Guangyue](https://hkumath.hku.hk/~ghan/).
 
-I obtained my Bachelor's degree in 2025 from the **TAQ Science Experimental Class in Mathematics** at **Jilin University**.
+I obtained my Bachelor's degree from the **TAQ Science Experimental Class in Mathematics** at **Jilin University** in 2025.
 
 ## Research Interests
 
 My current research focuses on:
 
-- Information-Theoretic Methods in AI
-- Machine Learning Theory and Practice
-- AI for Math and Data Science
+- Information-Theoretic Foundations for AI
+- Statistical Machine Learning Theory and Practice
+- Theoretical foundations for AI in scientific discovery (math & data science)
 
 More specific interests will be updated as my PhD study progresses.
 
@@ -27,14 +27,14 @@ More specific interests will be updated as my PhD study progresses.
 
 - [Baosteel Education Foundation-Excellent Student Award](http://www.bsef.baosteel.com/#/newsdetail?nodeid=15&id=8789), 2024.
 - [Jilin University Top 10 Students](https://jdb.ihwrm.com/index/article/articleinfo.html?doc_id=4646229), 2024.
+- China National Scholarship, 2021-2024.
 
 
 ## Education
 
-- **PhD in Mathematics**, The University of Hong Kong, 2025–present  
-  Supervisor: Professor Han Guangyue
+- **PhD in Mathematics**, The University of Hong Kong, 2025–present.
+- **B.Sc. in Mathematics**, Jilin University (TAQ Class), 2021–2025.
 
-- **B.Sc. in Mathematics**, Jilin University (TAQ Class), 2021–2025
 
 ## Contact
 
