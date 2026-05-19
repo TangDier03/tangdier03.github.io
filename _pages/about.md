@@ -54,7 +54,7 @@ Conference Reviewer for [IEEE ISIT2026](https://2026.ieee-isit.org/).
 
 - **GitHub**: [github.com/tangdier03](https://github.com/tangdier03)
 
-- **Office**: P206, Graduate House, The University of Hong Kong.
+- **Office**: P206, Graduate House, The University of Hong Kong. Pokfulam Road, Hong Kong.
 
 ---
 
