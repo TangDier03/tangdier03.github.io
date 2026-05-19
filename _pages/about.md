@@ -27,13 +27,13 @@ More specific interests will be updated as my PhD study progresses.
 
 - [Baosteel Education Foundation-Excellent Student Award](http://www.bsef.baosteel.com/#/newsdetail?nodeid=15&id=8789), 2024.
 - [Jilin University Top 10 Students](https://jdb.ihwrm.com/index/article/articleinfo.html?doc_id=4646229), 2024.
-- China National Scholarship, 2021-2024.
+- **China National Scholarship**, 2021-2024.
 
 
 ## Education
 
-- **PhD in Mathematics**, The University of Hong Kong, 2025–present.
-- **B.Sc. in Mathematics**, Jilin University (TAQ Class), 2021–2025.
+- **PhD** in Mathematics, The University of Hong Kong, 2025–present.
+- **B.Sc.** in Mathematics, Jilin University (TAQ Class), 2021–2025.
 
 
 ## Contact
