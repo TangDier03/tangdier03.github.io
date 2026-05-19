@@ -23,7 +23,7 @@ repository               : "tangdier03/tangdier03.github.io"
 #               Additional customization can be done by editing /_includes/author-profile.html
 author:
   # Biographic information
-  avatar           : "/images/white.jpg"
+  avatar           : "https://tangdier03.github.io/images/white.jpg"
   name             : "Tang Dier"
   pronouns         : # example: "she/her"  
   bio              : "PhD in Mathematics, Year 1."
