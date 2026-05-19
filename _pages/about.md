@@ -16,10 +16,11 @@ I obtained my Bachelor's degree from the **TAQ Science Experimental Class in Mat
 ## Research Interests
 
 My current research focuses on:
+Unifying artificial intelligence, information theory, statistical inference, and scientific discovery.
 
-- Information-Theoretic Foundations for AI
-- Statistical Machine Learning Theory and Practice
-- Theoretical foundations for AI in scientific discovery (math & data science)
+- Information-Theoretic Principles for Learning & Inference.
+- Statistical Machine Learning Theory.
+- Theoretical foundations for AI in scientific discovery (math & data science).
 
 More specific interests will be updated as my PhD study progresses.
 
