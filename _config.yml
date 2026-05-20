@@ -11,7 +11,7 @@ locale                   : "en-US"
 site_theme               : "default" # The available themes options are "default", "air", "sunrise", "mint", "dirt" and "contrast"
 title                    : "Dier Tang - The University of Hong Kong"
 title_separator          : "-"
-name                     : &name "Dier Tang (Derek)"
+name                     : &name "Dier Tang"
 description              : PhD in Mathematics.
 url                      : https://tangdier03.github.io
 
@@ -24,7 +24,7 @@ repository               : "tangdier03/tangdier03.github.io"
 author:
   # Biographic information
   avatar           : "https://tangdier03.github.io/images/white.jpg"
-  name             : "Tang Dier"
+  name             : "Derek Dier Tang"
   pronouns         : # example: "she/her"  
   bio              : "PhD in Mathematics, Year 1."
   location         : "Hong Kong, China"
