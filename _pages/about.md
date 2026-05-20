@@ -7,7 +7,7 @@ redirect_from:
   - /about.html
 ---
 
-I am a first-year PhD student in [Department of Mathematics](https://hkumath.hku.hk/web/current/pg-course.php), **The University of Hong Kong**, supervised by Professor [Han Guangyue](https://hkumath.hku.hk/~ghan/).
+I am a first-year PhD student in [Department of Mathematics](https://hkumath.hku.hk/web/current/pg-course.php) at **HKU**, supervised by Professor [Guangyue Han](https://hkumath.hku.hk/~ghan/).
 
 I obtained my BSc degree from the **TAQ Science Experimental Class in Mathematics** at **Jilin University** in 2025.
 
