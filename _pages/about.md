@@ -13,13 +13,14 @@ I obtained my BSc degree from the **TAQ Science Experimental Class in Mathematic
 
 ## Research Interests
 
-My current research focuses on unifying **machine learning**, **information theory**, **statistical inference**, and **scientific discovery**：
+My current research focuses on unifying **machine learning**, **information theory**, **statistical inference**, and **scientific discovery**. Key areas of interest include:
 
-- Information-Theoretic Principles for Learning & Inference.
-- Statistical Machine Learning Theory.
-- Theoretical foundations for AI in scientific discovery (math & data science).
+- Information-Theoretic Principles for Learning and Inference.
+- High-Dimensional Feature Selection and Representation Learning.
+- Algorithms and Theory in Reinforcement Learning.
+- Foundational Frameworks for AI-driven Scientific Discovery.
 
-More specific interests will be updated as my PhD study progresses.
+I am always open to exploring emerging topics at the intersection of these fields.
 
 
 
