@@ -7,9 +7,7 @@ redirect_from:
   - /about.html
 ---
 
-I am a first-year PhD student in the [Department of Mathematics](https://hkumath.hku.hk/web/current/pg-course.php) at the University of Hong Kong, supervised by Professor [Guangyue Han](https://hkumath.hku.hk/~ghan/).
-
-I obtained my BSc degree from Jilin University, TAQ Science Experimental Class in Mathematics in 2025.
+I am a first-year PhD student in the [Department of Mathematics](https://hkumath.hku.hk/web/current/pg-course.php) at the University of Hong Kong, supervised by Professor [Guangyue Han](https://hkumath.hku.hk/~ghan/). I obtained my BSc degree from Jilin University, TAQ Science Experimental Class in Mathematics in 2025.
 
 ## Research Interests
 
@@ -39,7 +37,7 @@ Conference Reviewer for [ISIT 2026](https://2026.ieee-isit.org/).
 
 ## Education
 
-- **PhD** in Mathematics, The University of Hong Kong, 2025–present.
+- **PhD** in Mathematics, the University of Hong Kong, 2025–present.
 - **BSc** in Mathematics, Jilin University (TAQ Class), 2021–2025.
 
 
@@ -47,7 +45,7 @@ Conference Reviewer for [ISIT 2026](https://2026.ieee-isit.org/).
 
 - [Baosteel Education Foundation-Excellent Student Award](http://www.bsef.baosteel.com/#/newsdetail?nodeid=15&id=8789), 2024.
 - [Jilin University Top 10 Students](https://jdb.ihwrm.com/index/article/articleinfo.html?doc_id=4646229), 2024.
-- **China National Scholarship**, 2021-2024.
+- China National Scholarship, 2021-2024.
 
 
 
