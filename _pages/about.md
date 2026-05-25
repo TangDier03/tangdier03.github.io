@@ -43,9 +43,9 @@ Conference Reviewer for [ISIT 2026](https://2026.ieee-isit.org/).
 
 ## Past Awards
 
-- [Baosteel Education Foundation-Excellent Student Award](http://www.bsef.baosteel.com/#/newsdetail?nodeid=15&id=8789), 2024.
-- [Jilin University Top 10 Students](https://jdb.ihwrm.com/index/article/articleinfo.html?doc_id=4646229), 2024.
-- China National Scholarship, 2021-2024.
+- [Baosteel Education Foundation Excellent Student Award](http://www.bsef.baosteel.com/#/newsdetail?nodeid=15&id=8789) (2024).
+- [Jilin University Top 10 Students](https://jdb.ihwrm.com/index/article/articleinfo.html?doc_id=4646229) (2024).
+- China National Scholarship (2022, 2023, 2024).
 
 
 
