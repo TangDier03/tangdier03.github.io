@@ -26,13 +26,13 @@ I am always open to exploring emerging topics at the intersection of these field
 
 ## Academic Service
 
-Conference Reviewer for [ISIT2026](https://2026.ieee-isit.org/).
+Conference Reviewer for [ISIT 2026](https://2026.ieee-isit.org/).
 
 
 
 ## Professional Membership
 
-Institute of Electrical and Electronics Engineers (IEEE), Graduate Student Member, 2026-present.
+Institute of Electrical and Electronics Engineers (IEEE), Student Member, 2026-present.
 
 
 
