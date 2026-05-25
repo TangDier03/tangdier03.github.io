@@ -26,8 +26,14 @@ I am always open to exploring emerging topics at the intersection of these field
 
 ## Academic Service
 
-- Conference Reviewer for [ISIT2026](https://2026.ieee-isit.org/).
-- IEEE Graduate Student Member.
+Conference Reviewer for [ISIT2026](https://2026.ieee-isit.org/).
+
+
+
+## Professional Membership
+
+IEEE Graduate Student Member, 2026-present.
+
 
 
 ## Education
