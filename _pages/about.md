@@ -32,7 +32,7 @@ Conference Reviewer for [ISIT2026](https://2026.ieee-isit.org/).
 
 ## Professional Membership
 
-IEEE Graduate Student Member, 2026-present.
+Institute of Electrical and Electronics Engineers (IEEE), Graduate Student Member, 2026-present.
 
 
 
