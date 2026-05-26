@@ -37,7 +37,7 @@ Conference Reviewer for [ISIT 2026](https://2026.ieee-isit.org/).
 
 ## Education
 
-- **PhD** in Mathematics, the University of Hong Kong, 2025–present.
+- **PhD** in Mathematics, The University of Hong Kong, 2025–present.
 - **BSc** in Mathematics, Jilin University (TAQ Class), 2021–2025.
 
 
