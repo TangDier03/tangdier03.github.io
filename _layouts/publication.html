@@ -2,13 +2,64 @@
 layout: default
 ---
 
+<style>
+  .publication {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 2rem 1rem;
+  }
+  .publication h1 {
+    text-align: center;
+    font-size: 1.8rem;
+    margin-bottom: 1rem;
+  }
+  .publication .author {
+    text-align: center;
+    font-size: 1.1rem;
+    margin-bottom: 0.5rem;
+  }
+  .publication .venue {
+    text-align: center;
+    font-size: 1rem;
+    color: #555;
+    margin-bottom: 2rem;
+  }
+  .publication hr {
+    margin: 1.5rem 0;
+  }
+  .publication h2 {
+    font-size: 1.4rem;
+    margin-top: 1.5rem;
+    margin-bottom: 0.8rem;
+    border-bottom: 1px solid #eee;
+    padding-bottom: 0.3rem;
+  }
+  .publication .links {
+    text-align: center;
+    margin: 1.5rem 0;
+  }
+  .publication .links a {
+    margin: 0 0.5rem;
+    display: inline-block;
+  }
+</style>
+
 <article class="publication">
   <h1>{{ page.title }}</h1>
-  <p><strong>{{ page.author }}</strong></p>
-  <p><em>Published in {{ page.venue }}, {{ page.date | date: "%Y" }}</em></p>
+  <div class="author"><strong>{{ page.author }}</strong></div>
+  <div class="venue"><em>Published in {{ page.venue }}, {{ page.date | date: "%Y" }}</em></div>
 
   <hr>
 
   {{ content }}
 
+  <div class="links">
+    <a href="{{ page.arxiv }}" target="_blank">arXiv</a> |
+    <a href="{{ page.pdf }}" target="_blank">PDF Download</a>
+  </div>
+
+  <hr>
+
+  <h2>Citation</h2>
+  <p>{{ page.citation }}</p>
 </article>
