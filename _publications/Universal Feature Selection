@@ -4,7 +4,7 @@ collection: publications
 permalink: /publication/universal-feature-selection
 author: "Dier Tang, Guangyue Han"
 venue: "arXiv preprint"
-date: 2026-01-01
+date: 2026-05-10
 arxiv: "https://arxiv.org/abs/2605.09396"
 pdf: "/files/universal_feature_selection.pdf"
 citation: "Tang D, Han G. Universal Feature Selection with Noisy Observations and Weak Symmetry Conditions[J]. arXiv preprint arXiv:2605.09396, 2026."
