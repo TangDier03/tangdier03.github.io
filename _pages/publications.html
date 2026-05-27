@@ -1,36 +1,38 @@
 ---
-layout: archive
-title: "Publications (2026-)"
+title: "Publications"
 permalink: /publications/
-author_profile: true
+layout: single
 ---
 
-{% if site.author.googlescholar %}
-  <div class="wordwrap">You can also find my articles on <a href="{{site.author.googlescholar}}">my Google Scholar profile</a>.</div>
-{% endif %}
+<style>
+  .pub-title {
+    font-size: 1.2rem;
+    margin-bottom: 0.2rem;
+  }
+  .pub-title a {
+    text-decoration: none;
+    color: #0366d6;
+  }
+  .pub-title a:hover {
+    text-decoration: underline;
+  }
+  .pub-meta {
+    font-size: 0.9rem;
+    color: #555;
+    margin-bottom: 1rem;
+  }
+  .pub-item {
+    margin-bottom: 1.5rem;
+  }
+</style>
 
-{% include base_path %}
-
-<!-- New style rendering if publication categories are defined -->
-{% if site.publication_category %}
-  {% for category in site.publication_category  %}
-    {% assign title_shown = false %}
-    {% for post in site.publications reversed %}
-      {% if post.category != category[0] %}
-        {% continue %}
-      {% endif %}
-      {% unless title_shown %}
-        <h2>{{ category[1].title }}</h2><hr />
-        {% assign title_shown = true %}
-      {% endunless %}
-      {% include archive-single.html %}
-    {% endfor %}
-  {% endfor %}
-{% else %}
-  {% for post in site.publications reversed %}
-    {% include archive-single.html %}
-  {% endfor %}
-{% endif %}
-
-
-
+{% for publication in site.publications reversed %}
+  <div class="pub-item">
+    <div class="pub-title">
+      <a href="{{ publication.permalink | relative_url }}">{{ publication.title }}</a>
+    </div>
+    <div class="pub-meta">
+      {{ publication.author }}, {{ publication.venue }}, {{ publication.date | date: "%Y" }}
+    </div>
+  </div>
+{% endfor %}
