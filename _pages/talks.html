@@ -4,14 +4,29 @@ permalink: /talks/
 layout: single
 ---
 
+<style>
+  .talk-title {
+    font-size: 1.5rem;
+    margin-bottom: 0.25rem;
+  }
+  .talk-meta {
+    font-size: 0.9rem;
+    color: #555;
+    margin-bottom: 0.5rem;
+  }
+  .talk-item {
+    margin-bottom: 2rem;
+  }
+</style>
+
 {% for talk in site.talks %}
-  <div style="margin-bottom: 2rem;">
-    <h3>
+  <div class="talk-item">
+    <div class="talk-title">
       <a href="{{ talk.pdf | relative_url }}" target="_blank">{{ talk.title }}</a>
-    </h3>
-    <p>
+    </div>
+    <div class="talk-meta">
       {{ talk.date | date: "%B %d, %Y" }} – {{ talk.type }}, {{ talk.venue }}, {{ talk.location }}
-    </p>
+    </div>
     {% if talk.content and talk.content != "" %}
       {{ talk.content | markdownify }}
     {% endif %}
