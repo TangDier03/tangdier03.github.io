@@ -1,26 +1,20 @@
 ---
 title: "Universal Feature Selection with Noisy Observations and Weak Symmetry Conditions"
 collection: publications
-category: manuscripts
-date: 2026-05-10
-venue: 'arXiv preprint'
-arxiv: 'https://arxiv.org/abs/2605.09396'
-paperurl: 'https://arxiv.org/pdf/2605.09396.pdf'
+permalink: /publication/universal-feature-selection
+author: "Dier Tang, Guangyue Han"
+venue: "arXiv preprint"
+date: 2026-01-01
+arxiv: "https://arxiv.org/abs/2605.09396"
+pdf: "/files/universal_feature_selection.pdf"
+citation: "Tang D, Han G. Universal Feature Selection with Noisy Observations and Weak Symmetry Conditions[J]. arXiv preprint arXiv:2605.09396, 2026."
 ---
-
 
 This paper relaxes the restrictive symmetry conditions adopted in prior work and extends the universal feature selection framework to accommodate noisy observations as well as attribute structures that may exhibit directional preferences. Our findings highlight the robustness of the selection framework against second-moment deviations and observation noise, thereby broadening its applicability across diverse inference tasks and providing a theoretically grounded tool for universal feature selection in practical scenarios.
 
-<ul>
-  <li><a href="https://doi.org/10.48550/arXiv.2605.09396">arXiv</a></li>
-  <li><a href="https://arxiv.org/pdf/2605.09396.pdf">PDF Download</a></li>
-</ul>
+- [arXiv](https://doi.org/10.48550/arXiv.2605.09396)
+- [PDF Download](https://arxiv.org/pdf/2605.09396.pdf)
 
+## Citation
 
-
-
-<h2>Citation</h2>
-
-<p>Tang D, Han G. Universal Feature Selection with Noisy Observations and Weak Symmetry Conditions[J]. arXiv preprint arXiv:2605.09396, 2026.</p>
-
-
+{{ page.citation }}
