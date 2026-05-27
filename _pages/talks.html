@@ -19,7 +19,7 @@ layout: single
   }
 </style>
 
-{% for talk in site.talks %}
+{% for talk in site.talks reversed %}
   <div class="talk-item">
     <div class="talk-title">
       <a href="{{ talk.pdf | relative_url }}" target="_blank">{{ talk.title }}</a>
