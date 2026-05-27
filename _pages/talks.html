@@ -25,7 +25,13 @@ layout: single
       <a href="{{ talk.pdf | relative_url }}" target="_blank">{{ talk.title }}</a>
     </div>
     <div class="talk-meta">
-      {{ talk.date | date: "%B %d, %Y" }} – {{ talk.type }}, {{ talk.venue }}, {{ talk.location }}
+      {{ talk.date | date: "%B %d, %Y" }} – {{ talk.type }},
+      {% if talk.venue_url %}
+        <a href="{{ talk.venue_url }}" target="_blank">{{ talk.venue }}</a>
+      {% else %}
+        {{ talk.venue }}
+      {% endif %}
+      , {{ talk.location }}
     </div>
     {% if talk.content and talk.content != "" %}
       {{ talk.content | markdownify }}
