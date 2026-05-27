@@ -5,8 +5,7 @@ type: "Poster presentation"
 venue: "BIID 2026, Chinese University of Hong Kong (Shenzhen)"
 date: 2026-06-27
 location: "Shenzhen, China"
-permalink: /talks/beyond-spherical-symmetry
-pdf: /assets/pdf/Beyond Spherical Symmetry.pdf
+pdf: "/assets/pdf/Beyond Spherical Symmetry.pdf"
 ---
 
 <ul>
