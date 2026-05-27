@@ -29,7 +29,7 @@ layout: single
 {% for publication in site.publications reversed %}
   <div class="pub-item">
     <div class="pub-title">
-      <a href="{{ publication.permalink | relative_url }}">{{ publication.title }}</a>
+      <a href="{{ publication.url | relative_url }}">{{ publication.title }}</a>
     </div>
     <div class="pub-meta">
       {{ publication.author }}, {{ publication.venue }}, {{ publication.date | date: "%Y" }}
