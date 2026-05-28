@@ -30,8 +30,8 @@ Conference Reviewer for [ISIT 2026](https://2026.ieee-isit.org/).
 
 ## Professional Membership
 
-- Institute of Electrical and Electronics Engineers (IEEE), Graduate Student Member, 2026-present.
-- Society for Industrial and Applied Mathematics (SIAM), Student Member, 2026-present.
+- Institute of Electrical and Electronics Engineers, Graduate Student Member, 2026-present.
+- Society for Industrial and Applied Mathematics, Student Member, 2026-present.
 
 
 
