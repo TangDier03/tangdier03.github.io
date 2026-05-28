@@ -36,16 +36,12 @@ Conference Reviewer for [ISIT 2026](https://2026.ieee-isit.org/).
 
 
 
-## Publications
-
-See my [publications](https://tangdier03.github.io/publications/).
 
 
+## Education
 
-
-## Presentations
-
-See my [presentation materials](https://tangdier03.github.io/talks/).
+- **PhD** in Mathematics, The University of Hong Kong, 2025–present.
+- **BSc** in Mathematics, Jilin University (TAQ Class), 2021–2025.
 
 
 
@@ -56,19 +52,6 @@ See my [presentation materials](https://tangdier03.github.io/talks/).
 - [Jilin University Top 10 Students](https://jdb.ihwrm.com/index/article/articleinfo.html?doc_id=4646229) (2024).
 - China National Scholarship (2022, 2023, 2024).
 
-
-
-
-## Education
-
-- **PhD** in Mathematics, The University of Hong Kong, 2025–present.
-- **BSc** in Mathematics, Jilin University (TAQ Class), 2021–2025.
-
-
-
-## Teaching
-
-See my [teaching experiences](https://tangdier03.github.io/teaching/).
 
 
 
