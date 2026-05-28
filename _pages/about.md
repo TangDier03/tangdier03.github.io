@@ -28,10 +28,34 @@ Conference Reviewer for [ISIT 2026](https://2026.ieee-isit.org/).
 
 
 
+
 ## Professional Membership
 
 - Institute of Electrical and Electronics Engineers, Graduate Student Member, 2026-present.
 - Society for Industrial and Applied Mathematics, Student Member, 2026-present.
+
+
+
+## Publications
+
+See my [publications](https://tangdier03.github.io/publications/).
+
+
+
+
+## Presentations
+
+See my [presentation materials](https://tangdier03.github.io/talks/).
+
+
+
+
+## Past Awards
+
+- [Baosteel Education Foundation Excellent Student Award](http://www.bsef.baosteel.com/#/newsdetail?nodeid=15&id=8789) (2024).
+- [Jilin University Top 10 Students](https://jdb.ihwrm.com/index/article/articleinfo.html?doc_id=4646229) (2024).
+- China National Scholarship (2022, 2023, 2024).
+
 
 
 
@@ -41,12 +65,10 @@ Conference Reviewer for [ISIT 2026](https://2026.ieee-isit.org/).
 - **BSc** in Mathematics, Jilin University (TAQ Class), 2021–2025.
 
 
-## Past Awards
 
-- [Baosteel Education Foundation Excellent Student Award](http://www.bsef.baosteel.com/#/newsdetail?nodeid=15&id=8789) (2024).
-- [Jilin University Top 10 Students](https://jdb.ihwrm.com/index/article/articleinfo.html?doc_id=4646229) (2024).
-- China National Scholarship (2022, 2023, 2024).
+## Teaching
 
+See my [teaching experiences](https://tangdier03.github.io/teaching/).
 
 
 
