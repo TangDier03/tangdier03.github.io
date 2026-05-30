@@ -69,7 +69,7 @@ Conference Reviewer for [ISIT 2026](https://2026.ieee-isit.org/).
 
 ---
 
-*This page will be continuously updated with my publications, awards, experiences, and presentation materials.*
+*This page will be continuously updated.*
 
 
 
