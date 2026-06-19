@@ -1,6 +1,6 @@
 ---
 permalink: /
-title: "About Me"
+title: "Home"
 author_profile: true
 redirect_from: 
   - /about/
@@ -16,7 +16,7 @@ My current research focuses on unifying **machine learning**, **information theo
 - Algorithms and Theory in Reinforcement Learning.
 - Foundational Frameworks for AI-driven Scientific Discovery.
 
-I am always open to exploring emerging topics of these fields.
+I am always open to exploring emerging topics in these fields.
 
 
 
@@ -31,7 +31,7 @@ I am always open to exploring emerging topics of these fields.
 
 ## 📝 Academic Service
 
-Conference Reviewer for **ISIT** (2026).
+Conference Reviewer for **IEEE International Symposium on Information Theory (ISIT)** (2026).
 
 
 
