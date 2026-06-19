@@ -22,10 +22,10 @@ I am always open to exploring emerging topics of these fields.
 
 ## 📌 News
 
-- 2026, Jun 28 - Jul 3: Will attend [2026 IEEE International Symposium on Information Theory](https://2026.ieee-isit.org/) in Guangzhou, China, and give a presentation.
-- 2026, Jun 22 - Jun 26: Will attend [Beyond IID in Information Theory 14](https://www.beyondiid2026.com/) in Shenzhen, China, and give a presentation.
-- 2026, May 10: Theoretical paper *Universal Feature Selection with Noisy Observations and Weak Symmetry Conditions* was uploaded to arXiv. See [details](https://tangdier03.github.io/publications/Universal%20Feature%20Selection/).
-- 2025, Sep 1: Joined The University of Hong Kong as a PhD student.
+- 2026-06-28 to 2026-07-03: Will attend [2026 IEEE International Symposium on Information Theory](https://2026.ieee-isit.org/) in Guangzhou, China, and give a presentation.
+- 2026-06-22 to 2026-06-26: Will attend [Beyond IID in Information Theory 14](https://www.beyondiid2026.com/) in Shenzhen, China, and give a presentation.
+- 2026-05-10: Theoretical paper *Universal Feature Selection with Noisy Observations and Weak Symmetry Conditions* was uploaded to arXiv. See [details](https://tangdier03.github.io/publications/Universal%20Feature%20Selection/).
+- 2025-09-01: Joined The University of Hong Kong as a PhD student.
 
 
 
@@ -70,7 +70,7 @@ Conference Reviewer for **ISIT** (2026).
 - **Non-academic cooperation**:  
   `tangde3132@163.com`
 
-- **Office**: P206, Graduate House; The University of Hong Kong; Pokfulam Road; Hong Kong.
+- **Office**: P206, Graduate House, The University of Hong Kong; Pokfulam Road; Hong Kong.
 
 
 ---
