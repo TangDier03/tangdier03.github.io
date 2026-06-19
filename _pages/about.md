@@ -28,14 +28,14 @@ I am always open to exploring emerging topics at the intersection of these field
 
 
 
-## Academic Service
+## 📝 Academic Service
 
 Conference Reviewer for [ISIT 2026](https://2026.ieee-isit.org/).
 
 
 
 
-## Professional Membership
+## 🪪 Professional Membership
 
 - IEEE, Graduate Student Member, 2026-present.
 - SIAM, Student Member, 2026-present.
@@ -44,7 +44,7 @@ Conference Reviewer for [ISIT 2026](https://2026.ieee-isit.org/).
 
 
 
-## Education
+## 🎓 Education
 
 - **PhD** in Mathematics, The University of Hong Kong, 2025–present.
 - **BSc** in Mathematics, Jilin University (TAQ Class), 2021–2025.
@@ -52,7 +52,7 @@ Conference Reviewer for [ISIT 2026](https://2026.ieee-isit.org/).
 
 
 
-## Past Awards
+## 🏅 Past Awards
 
 - [Baosteel Education Foundation](http://www.bsef.baosteel.com/#/) Excellent Student Award (2024).
 - Jilin University [Top 10](https://jdb.ihwrm.com/index/article/articleinfo.html?doc_id=4646229) Students (2024).
@@ -61,7 +61,7 @@ Conference Reviewer for [ISIT 2026](https://2026.ieee-isit.org/).
 
 
 
-## Contact
+## 📩 Contact
 
 - **Academic correspondence**:  
   `tangde_math@connect.hku.hk`
@@ -83,9 +83,9 @@ Conference Reviewer for [ISIT 2026](https://2026.ieee-isit.org/).
 
 <section class="page-navigation-buttons" style="margin-top: 2.5rem; text-align: center;">
   <div style="display: flex; flex-wrap: wrap; justify-content: center; gap: 1rem;">
-    <a href="/publications/" class="btn-nav" style="background-color: #2c3e50; color: white; padding: 0.75rem 1.8rem; border-radius: 30px; text-decoration: none; font-weight: 500; transition: background-color 0.2s ease, transform 0.1s ease; display: inline-flex; align-items: center; gap: 0.5rem; border: none; cursor: pointer; box-shadow: 0 1px 2px rgba(0,0,0,0.05);">📑 Publications</a>
+    <a href="/publications/" class="btn-nav" style="background-color: #2c3e50; color: white; padding: 0.75rem 1.8rem; border-radius: 30px; text-decoration: none; font-weight: 500; transition: background-color 0.2s ease, transform 0.1s ease; display: inline-flex; align-items: center; gap: 0.5rem; border: none; cursor: pointer; box-shadow: 0 1px 2px rgba(0,0,0,0.05);">📄 Publications</a>
     <a href="/talks/" class="btn-nav" style="background-color: #2c3e50; color: white; padding: 0.75rem 1.8rem; border-radius: 30px; text-decoration: none; font-weight: 500; transition: background-color 0.2s ease, transform 0.1s ease; display: inline-flex; align-items: center; gap: 0.5rem; border: none; cursor: pointer; box-shadow: 0 1px 2px rgba(0,0,0,0.05);">🎙️ Presentations</a>
-    <a href="/teaching/" class="btn-nav" style="background-color: #2c3e50; color: white; padding: 0.75rem 1.8rem; border-radius: 30px; text-decoration: none; font-weight: 500; transition: background-color 0.2s ease, transform 0.1s ease; display: inline-flex; align-items: center; gap: 0.5rem; border: none; cursor: pointer; box-shadow: 0 1px 2px rgba(0,0,0,0.05);">✏️ Teaching</a>
+    <a href="/teaching/" class="btn-nav" style="background-color: #2c3e50; color: white; padding: 0.75rem 1.8rem; border-radius: 30px; text-decoration: none; font-weight: 500; transition: background-color 0.2s ease, transform 0.1s ease; display: inline-flex; align-items: center; gap: 0.5rem; border: none; cursor: pointer; box-shadow: 0 1px 2px rgba(0,0,0,0.05);">📖 Teaching</a>
   </div>
 </section>
 
