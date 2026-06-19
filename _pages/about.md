@@ -11,10 +11,10 @@ I am a first-year PhD student in the [Department of Mathematics](https://hkumath
 
 My current research focuses on unifying **machine learning**, **information theory**, **statistical inference**, and **scientific discovery**. Key areas of interest include:
 
-- Information Theory for Learning and Inference.
-- High-Dimensional Feature Selection and Representation Learning.
-- Algorithms and Theory in Reinforcement Learning.
-- Foundational Frameworks for AI-driven Scientific Discovery.
+- Information Theory for Learning and Inference
+- High-Dimensional Feature Selection and Representation Learning
+- Algorithms and Theory in Reinforcement Learning
+- Foundational Frameworks for AI-driven Scientific Discovery
 
 I am always open to exploring emerging topics in these fields.
 
@@ -38,8 +38,8 @@ Conference Reviewer for **IEEE International Symposium on Information Theory (IS
 
 ## 🪪 Professional Membership
 
-- IEEE, Graduate Student Member, 2026-present.
-- SIAM, Student Member, 2026-present.
+- IEEE Graduate Student Member, 2026-present.
+- SIAM Student Member, 2026-present.
 
 
 
