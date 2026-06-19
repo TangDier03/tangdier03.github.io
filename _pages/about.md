@@ -48,7 +48,7 @@ Conference Reviewer for **IEEE International Symposium on Information Theory (IS
 ## 🎓 Education
 
 - **PhD** in Mathematics, The University of Hong Kong, 2025–present.
-- **BSc** in Mathematics, Jilin University (TAQ Class), 2021–2025.
+- **BSc** in Mathematics, Jilin University (TAQ Honors Program in Science), 2021–2025.
 
 
 
