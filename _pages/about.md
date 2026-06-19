@@ -31,7 +31,7 @@ I am always open to exploring emerging topics in these fields.
 
 ## 📝 Academic Service
 
-Conference Reviewer for **IEEE International Symposium on Information Theory (ISIT)** (2026).
+Conference Reviewer for **ISIT** (2026).
 
 
 
