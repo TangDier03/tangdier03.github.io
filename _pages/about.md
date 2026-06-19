@@ -11,7 +11,7 @@ I am a first-year PhD student in the [Department of Mathematics](https://hkumath
 
 My current research focuses on unifying **machine learning**, **information theory**, **statistical inference**, and **scientific discovery**. Key areas of interest include:
 
-- Information-Theoretic Principles for Learning and Inference.
+- Information Theory for Learning and Inference.
 - High-Dimensional Feature Selection and Representation Learning.
 - Algorithms and Theory in Reinforcement Learning.
 - Foundational Frameworks for AI-driven Scientific Discovery.
