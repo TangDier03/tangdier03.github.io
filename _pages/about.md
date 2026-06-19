@@ -22,9 +22,9 @@ I am always open to exploring emerging topics in these fields.
 
 ## 📌 News
 
-- 2026-06-28 to 2026-07-03: Will attend [2026 IEEE International Symposium on Information Theory](https://2026.ieee-isit.org/) in Guangzhou, China, and give a presentation.
-- 2026-06-22 to 2026-06-26: Will attend [Beyond IID in Information Theory 14](https://www.beyondiid2026.com/) in Shenzhen, China, and give a presentation.
-- 2026-05-10: Theoretical paper *Universal Feature Selection with Noisy Observations and Weak Symmetry Conditions* was uploaded to arXiv. See [details](https://tangdier03.github.io/publications/Universal%20Feature%20Selection/).
+- 2026-06-28 to 2026-07-03: Will attend and give a presentation at [2026 IEEE International Symposium on Information Theory](https://2026.ieee-isit.org/) held in Guangzhou, China.
+- 2026-06-22 to 2026-06-26: Will attend and give a presentation at [Beyond IID in Information Theory 14](https://www.beyondiid2026.com/) held in Shenzhen, China.
+- 2026-05-10: Theoretical paper [*Universal Feature Selection with Noisy Observations and Weak Symmetry Conditions*](https://tangdier03.github.io/publications/Universal%20Feature%20Selection/) was uploaded to arXiv.
 - 2025-09-01: Joined The University of Hong Kong as a PhD student.
 
 
