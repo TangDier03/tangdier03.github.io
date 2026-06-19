@@ -24,8 +24,7 @@ I am always open to exploring emerging topics at the intersection of these field
 
 - 2026, Jun 28 - Jul 3: I will attend [2026 IEEE International Symposium on Information Theory](https://2026.ieee-isit.org/) in Guangzhou, China, and give presentation.
 - 2026, Jun 22 - Jun 26: I will attend [Beyond IID in Information Theory 14](https://www.beyondiid2026.com/) in Shenzhen, China, and give presentation.
-- 2026, May 10: Our recent work on universal feature selection theory was posted to [arXiv](https://arxiv.org/abs/2605.09396).
-
+- 2026, May 10: Our recent work *Universal Feature Selection with Noisy Observations and Weak Symmetry Conditions* was posted to arXiv. See [details](https://tangdier03.github.io/publications/Universal%20Feature%20Selection/).
 
 
 
