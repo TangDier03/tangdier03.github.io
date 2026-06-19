@@ -75,7 +75,7 @@ Conference Reviewer for [ISIT 2026](https://2026.ieee-isit.org/).
 
 ---
 
-*This page will be continuously updated (Last update June 19, 2026).*
+*This page will be continuously updated (Last update: 2026, Jun 19).*
 
 
 
