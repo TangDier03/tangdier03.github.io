@@ -9,6 +9,15 @@ redirect_from:
 
 I am a first-year PhD student in the [Department of Mathematics](https://hkumath.hku.hk/web/current/pg-course.php) at The University of Hong Kong (expected graduation in 2029), supervised by Professor [Guangyue Han](https://hkumath.hku.hk/~ghan/). I obtained my BSc degree from Jilin University, TAQ Science Experimental Class in Mathematics in 2025.
 
+
+## News
+
+- 2026, June 28 - July 3. I will attend [2026 IEEE International Symposium on Information Theory](https://2026.ieee-isit.org/) and give presentation.
+- 2026, June 22 - June 26. I will attend [Beyond IID in Information Theory 14](https://www.beyondiid2026.com/) and give presentation.
+- 2026, May 10. Our recent work on the theories of universal feature selection was posted to [arXiv](https://arxiv.org/abs/2605.09396).
+
+
+
 ## Research Interests
 
 My current research focuses on unifying **machine learning**, **information theory**, **statistical inference**, and **scientific discovery**. Key areas of interest include:
@@ -19,14 +28,6 @@ My current research focuses on unifying **machine learning**, **information theo
 - Foundational Frameworks for AI-driven Scientific Discovery.
 
 I am always open to exploring emerging topics at the intersection of these fields.
-
-
-## News
-
-- 2026, June 28 - July 3. I will attend [2026 IEEE International Symposium on Information Theory](https://2026.ieee-isit.org/) and give presentation.
-- 2026, June 22 - June 26. I will attend [Beyond IID in Information Theory 14](https://www.beyondiid2026.com/) and give presentation.
-- 2026, May 10. Our recent work on the theories of universal feature selection was posted to [arXiv](https://arxiv.org/abs/2605.09396).
-- 2026, Feb 13. I was invited to be a conference reviewer of [2026 IEEE International Symposium on Information Theory](https://2026.ieee-isit.org/).
 
 
 
