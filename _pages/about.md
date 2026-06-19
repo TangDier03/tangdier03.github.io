@@ -7,7 +7,7 @@ redirect_from:
   - /about.html
 ---
 
-I am a first-year PhD student in the [Department of Mathematics](https://hkumath.hku.hk/web/current/pg-course.php) at The University of Hong Kong (expected graduation in 2029), supervised by Professor [Guangyue Han](https://hkumath.hku.hk/~ghan/). I obtained my BSc degree from Jilin University, TAQ Science Experimental Class in Mathematics in 2025.
+I am a first-year PhD student in the [Department of Mathematics](https://hkumath.hku.hk/web/current/pg-course.php) at The University of Hong Kong (expected graduation in 2029), supervised by Professor [Guangyue Han](https://hkumath.hku.hk/~ghan/). I obtained my BSc degree in Mathematics from Jilin University, TAQ Science Experimental Class in 2025.
 
 My current research focuses on unifying **machine learning**, **information theory**, **statistical inference**, and **scientific discovery**. Key areas of interest include:
 
