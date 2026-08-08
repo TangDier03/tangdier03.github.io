@@ -24,7 +24,7 @@ I am always open to exploring emerging topics in these fields.
 
 - 2026-08-21 to 2026-08-23: Will attend [CIEIT 2026](https://cieit2026.com/) held in **Kunming, China**.
 - 2026-06-28 to 2026-07-03: Attended and presented at [ISIT 2026](https://2026.ieee-isit.org/) held in **Guangzhou, China**.
-- 2026-05-10: Theoretical paper [*Universal Feature Selection with Noisy Observations and Weak Symmetry Conditions*](https://tangdier03.github.io/publications/Universal%20Feature%20Selection/) was uploaded to arXiv.
+- 2026-05-10: [*Universal Feature Selection with Noisy Observations and Weak Symmetry Conditions*](https://tangdier03.github.io/publications/Universal%20Feature%20Selection/) was uploaded to arXiv.
 - 2025-09-01: Joined The University of Hong Kong as a PhD student.
 
 
@@ -75,7 +75,7 @@ Conference Reviewer for **ISIT** (2026).
 
 ---
 
-*This page will be continuously updated (Last update: 2026, Aug 8).*
+*This page will be continuously updated (Last update: 2026, Aug 7).*
 
 
 
