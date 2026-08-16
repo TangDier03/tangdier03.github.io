@@ -61,7 +61,8 @@ Conference Reviewer for **ISIT** (2026).
 
 
 
-## 📩 Contact{#contact}
+<a id="contact"></a>
+## 📩 Contact
 
 - **Academic correspondence**:  
   `tangde_math@connect.hku.hk`
