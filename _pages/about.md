@@ -32,7 +32,7 @@ I am always open to exploring new topics and seeking long-term collaborators—f
 ## 📝 Academic Service
 
 - **Journal Reviewer:** *IEEE Transactions on Information Theory* (TIT)
-- **Conference Reviewer:** *IEEE International Symposium on Information Theory* (ISIT), 2026
+- **Conference Reviewer:** ISIT (2026)
 
 
 
