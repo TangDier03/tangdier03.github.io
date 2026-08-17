@@ -57,7 +57,7 @@ I am always open to exploring new topics and long-term collaborations. Feel free
 
 ## 🏅 Past Awards
 
-- [Baosteel Education Foundation](http://www.bsef.baosteel.com/#/) Excellent Student Award (2024).
+- [Baosteel](http://www.bsef.baosteel.com/#/) Excellent Student Award (2024).
 - Jilin University [Top 10](https://jdb.ihwrm.com/index/article/articleinfo.html?doc_id=4646229) Students (2024).
 - China National Scholarship (2022, 2023, 2024).
 
