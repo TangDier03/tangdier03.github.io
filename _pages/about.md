@@ -16,7 +16,8 @@ My current research focuses on unifying **machine learning**, **information theo
 - Algorithms and Theory in Reinforcement Learning and Embodied Intelligence
 - Foundational Frameworks for AI-driven Scientific Discovery
 
-I am always open to exploring emerging topics in these fields and actively seeking long-term collaborators. If you share similar research interests or would like to discuss potential ideas, please feel free to [reach out](#contact) !
+I am always open to exploring new topics and seeking long-term collaborators—feel free to [reach out](#contact) to discuss potential ideas!
+
 
 
 ## 📌 News
