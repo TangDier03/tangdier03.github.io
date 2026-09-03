@@ -70,13 +70,14 @@ I am always open to exploring new topics and long-term collaborations. Feel free
 - **Academic correspondence**:  
   `tangde_math@connect.hku.hk`
 
-- **Non-academic cooperation**:  
+- **Non-academic**:  
   `tangde3132@163.com`
 
 - **Office**:
   - Graduate House P206;
   - Run Run Shaw Buildiing 320A;
-    The University of Hong Kong; Pokfulam Road; Hong Kong.
+
+  The University of Hong Kong; Pokfulam Road; Hong Kong.
 
 
 ---
