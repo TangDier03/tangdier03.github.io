@@ -73,7 +73,11 @@ I am always open to exploring new topics and long-term collaborations. Feel free
 - **Non-academic**:  
   `tangde3132@163.com`
 
-- **Office**: Graduate House P206 *(Research)* &nbsp;|&nbsp; Run Run Shaw Building 320A *(Work)*
+- **Office**:
+
+  | Graduate House P206 *(Research)* | Run Run Shaw Building 320A *(Work)* |
+  | :--- | :--- |
+
   The University of Hong Kong; Pokfulam Road; Hong Kong.
 
 
