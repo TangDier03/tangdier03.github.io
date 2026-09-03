@@ -73,8 +73,8 @@ I am always open to exploring new topics and long-term collaborations. Feel free
   `tangde3132@163.com`
 
 - **Office**:
-  - Graduate House P206 (Research)
-  - Run Run Shaw Building 320A (Dept. Shared)
+  - Graduate House, P206 (Research)
+  - Run Run Shaw Building, 320A (Dept. Shared)
 
   The University of Hong Kong;  Pokfulam Road;  Hong Kong.
   
