@@ -74,11 +74,10 @@ I am always open to exploring new topics and long-term collaborations. Feel free
   `tangde3132@163.com`
 
 - **Office**:
-  <div style="display: flex; gap: 48px; margin: 4px 0 6px 16px;">
-    <span>• Graduate House P206 <em>(Research)</em></span>
-    <span>• Run Run Shaw Building 320A <em>(Office Hours)</em></span>
-  </div>
-  The University of Hong Kong; Pokfulam Road; Hong Kong.
+
+| Graduate House P206 *(Research)* | Run Run Shaw Building 320A *(Office Hours)* |
+
+The University of Hong Kong; Pokfulam Road; Hong Kong.
   
 
 ---
