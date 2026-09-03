@@ -73,12 +73,15 @@ I am always open to exploring new topics and long-term collaborations. Feel free
 - **Non-academic cooperation**:  
   `tangde3132@163.com`
 
-- **Office**: P206, Graduate House, The University of Hong Kong; Pokfulam Road; Hong Kong.
+- **Office**:
+  - Graduate House P206;
+  - Run Run Shaw Buildiing 320A;
+- The University of Hong Kong; Pokfulam Road; Hong Kong.
 
 
 ---
 
-*This page will be continuously updated (Last update: 2026, Aug 15).*
+*This page will be continuously updated (Last update: 2026, Sep 1).*
 
 
 
