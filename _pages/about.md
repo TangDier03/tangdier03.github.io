@@ -13,7 +13,7 @@ My current research focuses on unifying **machine learning**, **information theo
 
 - Information Theory for Learning and Inference
 - High-Dimensional Feature Selection and Representation Learning
-- Algorithms and Theory in Reinforcement Learning and Embodied Intelligence
+- Optimization in Deep Learning and Reinforcement Learning
 - Foundational Frameworks for AI-driven Scientific Discovery
 
 I am always open to exploring new topics and long-term collaborations. Feel free to [reach out](#contact) if you share similar research interests or would like to discuss potential ideas!
