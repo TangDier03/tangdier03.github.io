@@ -1,0 +1,666 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Derek Dier Tang — The University of Hong Kong</title>
+<meta name="description" content="Derek Dier Tang (唐迪尔), PhD student in Mathematics at The University of Hong Kong. Machine learning, information theory, statistical inference, and scientific discovery.">
+<link rel="icon" href="/images/favicon.ico" sizes="any">
+<link rel="icon" href="/images/favicon.svg" type="image/svg+xml">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Newsreader:ital,opsz,wght@0,6..72,400;0,6..72,500;1,6..72,400;1,6..72,500&family=IBM+Plex+Mono:wght@400;500&display=swap" rel="stylesheet">
+<style>
+  :root {
+    --ink: #0a0a0a;
+    --ink-2: #3d3d3d;
+    --ink-3: #6e6e6e;
+    --ink-4: #a3a3a3;
+    --paper: #fafafa;
+    --line: #e5e5e5;
+    --ease: cubic-bezier(0.22, 1, 0.36, 1);
+    --sans: 'Inter', -apple-system, 'PingFang SC', 'Microsoft YaHei', sans-serif;
+    --serif: 'Newsreader', 'Songti SC', 'SimSun', Georgia, serif;
+    --mono: 'IBM Plex Mono', 'SF Mono', 'Courier New', monospace;
+  }
+  * { margin: 0; padding: 0; box-sizing: border-box; }
+  html { scroll-behavior: smooth; }
+  body {
+    background-color: var(--paper);
+    background-image: radial-gradient(ellipse at 50% 40%, rgba(10,10,10,0) 55%, rgba(10,10,10,0.045) 100%);
+    background-attachment: fixed;
+    color: var(--ink);
+    font-family: var(--sans);
+    font-size: 16px;
+    line-height: 1.7;
+    -webkit-font-smoothing: antialiased;
+  }
+  ::selection { background: var(--ink); color: var(--paper); }
+
+  /* editorial margin rules flanking the content column */
+  body::before {
+    content: ''; position: fixed; top: 0; bottom: 0; left: 50%;
+    width: 1120px; transform: translateX(-50%);
+    border-left: 1px solid #ebe9e5; border-right: 1px solid #ebe9e5;
+    pointer-events: none; z-index: 1;
+  }
+
+  /* paper grain texture overlay — dual-scale */
+  body::after {
+    content: ''; position: fixed; inset: 0; z-index: 200; pointer-events: none;
+    opacity: 0.065; mix-blend-mode: multiply;
+    background-image:
+      url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='240' height='240'%3E%3Cfilter id='n'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.9' numOctaves='2' stitchTiles='stitch'/%3E%3CfeColorMatrix type='saturate' values='0'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23n)'/%3E%3C/svg%3E"),
+      url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='240' height='240'%3E%3Cfilter id='n'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.9' numOctaves='2' stitchTiles='stitch'/%3E%3CfeColorMatrix type='saturate' values='0'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23n)'/%3E%3C/svg%3E");
+    background-size: 240px 240px, 96px 96px;
+  }
+
+  /* ---------- navigation ---------- */
+  nav {
+    position: fixed; top: 0; left: 0; right: 0; z-index: 100;
+    background: rgba(250, 250, 250, 0.82);
+    backdrop-filter: blur(14px);
+    -webkit-backdrop-filter: blur(14px);
+    border-bottom: 1px solid var(--line);
+    transition: transform 350ms cubic-bezier(0.45, 0.05, 0.55, 0.95), opacity 350ms cubic-bezier(0.45, 0.05, 0.55, 0.95);
+  }
+  nav.hidden { transform: translateY(-100%); opacity: 0; }
+  .nav-inner {
+    max-width: 1120px; margin: 0 auto; padding: 0 2.4rem;
+    height: 62px; display: flex; align-items: center; justify-content: space-between;
+  }
+  .wordmark {
+    font-family: var(--serif); font-style: italic; font-weight: 500;
+    font-size: 1.25rem; letter-spacing: -0.01em; color: var(--ink); text-decoration: none;
+  }
+  .wordmark .zh { font-style: normal; font-size: 0.95rem; color: var(--ink-3); margin-left: 0.45rem; }
+  .nav-links { display: flex; gap: 2rem; list-style: none; }
+  .nav-links a {
+    font-family: var(--mono); font-size: 0.72rem; letter-spacing: 0.08em;
+    text-transform: uppercase; color: var(--ink-3); text-decoration: none;
+    position: relative; padding-bottom: 2px; transition: color 300ms ease;
+  }
+  .nav-links a::after {
+    content: ''; position: absolute; left: 0; bottom: 0;
+    width: 0; height: 1px; background: var(--ink); transition: width 300ms ease;
+  }
+  .nav-links a:hover { color: var(--ink); }
+  .nav-links a:hover::after { width: 100%; }
+
+  /* ---------- layout shell ---------- */
+  main { max-width: 1120px; margin: 0 auto; padding: 0 2.4rem; }
+  section { padding: 5.5rem 0; border-top: 1px solid var(--line); }
+  .sec-grid { display: grid; grid-template-columns: repeat(12, 1fr); gap: 0 3rem; }
+  .sec-label { grid-column: 1 / 4; }
+  .sec-label .idx {
+    font-family: var(--mono); font-size: 0.72rem; letter-spacing: 0.1em;
+    color: var(--ink-4); text-transform: uppercase;
+  }
+  .sec-label h2 {
+    font-family: var(--serif); font-weight: 500; font-size: 1.65rem;
+    letter-spacing: -0.015em; margin-top: 0.35rem;
+  }
+  .sec-body { grid-column: 4 / 13; }
+
+  /* ---------- hero ---------- */
+  header.hero {
+    position: relative; min-height: 92vh;
+    display: grid; grid-template-columns: auto minmax(0, 1fr);
+    gap: 4.5rem; align-items: center;
+    max-width: 1120px; margin: 0 auto; padding: 8rem 2.4rem 4rem;
+    overflow: hidden;
+  }
+  .spectrum {
+    position: absolute; right: -2rem; bottom: 0; top: 12vh;
+    width: min(46vw, 520px); pointer-events: none; opacity: 0.45; z-index: 0;
+  }
+  .spectrum line { stroke: var(--ink); stroke-width: 1; }
+  .hero-text { position: relative; z-index: 1; }
+  .hero-photo { position: relative; z-index: 1; width: 190px; }
+  .hero-photo img {
+    width: 100%; aspect-ratio: 4 / 5; object-fit: cover; object-position: center 32%;
+    display: block; border-radius: 14px; border: 1px solid var(--line);
+  }
+  .hero-photo figcaption {
+    margin-top: 0.7rem; font-family: var(--mono); font-size: 0.68rem;
+    letter-spacing: 0.08em; text-transform: uppercase; color: var(--ink-4);
+  }
+  .hero-kicker {
+    font-family: var(--mono); font-size: 0.68rem; letter-spacing: 0.1em;
+    text-transform: uppercase; color: var(--ink-3); margin-top: 1rem;
+    white-space: nowrap;
+  }
+  .hero-kicker .dot { color: var(--ink-4); padding: 0 0.6em; }
+  h1.hero-name {
+    font-family: var(--serif); font-weight: 500;
+    font-size: 2.15rem; line-height: 1.2; letter-spacing: -0.015em;
+  }
+  h1.hero-name em { font-style: italic; }
+  h1.hero-name .zh {
+    font-style: normal; font-family: var(--sans);
+    font-size: 0.6em; font-weight: 400;
+    letter-spacing: 0.35em; color: var(--ink-3); margin-left: 0.7rem;
+  }
+  .hero-sub {
+    margin-top: 1.7rem; max-width: 34rem;
+    font-size: 1.06rem; color: var(--ink-2);
+  }
+  .hero-sub em { font-family: var(--serif); font-style: italic; font-size: 1.08em; }
+  .hero-cta { margin-top: 2.2rem; display: flex; gap: 1rem; flex-wrap: wrap; }
+  .chip {
+    display: inline-flex; align-items: center; gap: 0.6rem;
+    font-family: var(--mono); font-size: 0.78rem;
+    padding: 0.62rem 1.25rem; border: 1px solid var(--ink); border-radius: 999px;
+    color: var(--ink); text-decoration: none; background: transparent;
+    transition: background 300ms ease, color 300ms ease;
+  }
+  .chip .arr { transition: transform 300ms var(--ease); }
+  .chip:hover { background: var(--ink); color: var(--paper); }
+  .chip:hover .arr { transform: translateX(4px); }
+  .chip.ghost { border-color: var(--line); color: var(--ink-3); }
+  .chip.ghost:hover { border-color: var(--ink); background: var(--ink); color: var(--paper); }
+
+  /* mask reveal */
+  .mask { display: block; overflow: hidden; }
+  .mask > span {
+    display: block; transform: translateY(110%); opacity: 0;
+    transition: transform 0.85s cubic-bezier(0.22, 1, 0.36, 1), opacity 0.85s ease;
+  }
+  .in .mask > span { transform: translateY(0); opacity: 1; }
+  .in .mask:nth-child(2) > span { transition-delay: 0.1s; }
+  .in .mask:nth-child(3) > span { transition-delay: 0.2s; }
+
+  /* ---------- scroll reveal ---------- */
+  .rv { opacity: 0; filter: blur(8px); transform: translateY(14px); }
+  .rv.on {
+    opacity: 1; filter: blur(0); transform: none;
+    transition: opacity 0.7s var(--ease), filter 0.7s var(--ease), transform 0.7s var(--ease);
+  }
+
+  /* ---------- content typography ---------- */
+  .sec-body p { max-width: 42rem; color: var(--ink-2); }
+  .sec-body p + p { margin-top: 1.1rem; }
+  .sec-body strong { font-weight: 600; color: var(--ink); }
+  a.tlink {
+    color: var(--ink); text-decoration: none; font-weight: 500;
+    background-image: linear-gradient(var(--ink), var(--ink));
+    background-size: 0% 1px; background-repeat: no-repeat; background-position: left 96%;
+    transition: background-size 300ms ease;
+    padding-bottom: 1px;
+  }
+  a.tlink:hover { background-size: 100% 1px; }
+
+  /* ---------- hairline rows ---------- */
+  .rows { list-style: none; border-top: 1px solid var(--line); }
+  .rows li {
+    display: grid; grid-template-columns: 9.5rem 1fr auto;
+    gap: 0 2rem; align-items: baseline;
+    padding: 1.05rem 0.4rem; border-bottom: 1px solid var(--line);
+    transition: background 250ms ease, padding-left 250ms var(--ease);
+  }
+  .rows li:hover { background: #f3f3f1; padding-left: 0.9rem; }
+  .rows .d {
+    font-family: var(--mono); font-size: 0.74rem; color: var(--ink-3);
+    letter-spacing: 0.02em; white-space: nowrap;
+  }
+  .rows .x { color: var(--ink-2); font-size: 0.96rem; }
+  .rows .x strong { font-weight: 600; color: var(--ink); }
+  .rows .x em { font-family: var(--serif); font-style: italic; color: var(--ink); font-size: 1.02em; }
+  .rows .go {
+    font-family: var(--mono); font-size: 0.8rem; color: var(--ink-4);
+    transition: transform 300ms var(--ease), color 300ms ease;
+  }
+  .rows li:hover .go { transform: translate(3px, -3px); color: var(--ink); }
+  a.rowlink { text-decoration: none; color: inherit; display: contents; }
+
+  /* numbered interest list */
+  .nums { list-style: none; counter-reset: it; border-top: 1px solid var(--line); }
+  .nums li {
+    counter-increment: it; display: flex; align-items: baseline; gap: 1.6rem;
+    padding: 0.95rem 0.4rem; border-bottom: 1px solid var(--line);
+    transition: background 250ms ease, padding-left 250ms var(--ease);
+  }
+  .nums li:hover { background: #f3f3f1; padding-left: 0.9rem; }
+  .nums li::before {
+    content: counter(it, decimal-leading-zero);
+    font-family: var(--mono); font-size: 0.74rem; color: var(--ink-4);
+  }
+  .nums li span { font-size: 0.98rem; color: var(--ink-2); }
+
+  /* two-col blocks (service / membership / education) */
+  .duo { display: grid; grid-template-columns: 1fr 1fr; gap: 3rem; }
+  .duo h3 {
+    font-family: var(--mono); font-size: 0.72rem; font-weight: 500;
+    letter-spacing: 0.1em; text-transform: uppercase; color: var(--ink-4);
+    margin-bottom: 1rem;
+  }
+  .plain { list-style: none; }
+  .plain li {
+    padding: 0.8rem 0; border-bottom: 1px solid var(--line);
+    font-size: 0.95rem; color: var(--ink-2);
+  }
+  .plain li:first-child { border-top: 1px solid var(--line); }
+  .plain li strong { font-weight: 600; color: var(--ink); }
+  .plain li em { font-family: var(--serif); font-style: italic; color: var(--ink); }
+
+  /* ---------- contact ---------- */
+  .contact-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 3rem; }
+  .cblock h3 {
+    font-family: var(--mono); font-size: 0.72rem; font-weight: 500;
+    letter-spacing: 0.1em; text-transform: uppercase; color: var(--ink-4);
+    margin-bottom: 1rem;
+  }
+  .email-line {
+    display: flex; align-items: center; justify-content: space-between; width: 100%;
+    padding: 0.9rem 0.4rem; border-bottom: 1px solid var(--line);
+    transition: background 250ms ease, padding-left 250ms var(--ease);
+  }
+  .email-line:first-of-type { border-top: 1px solid var(--line); }
+  .email-line:hover { background: #f3f3f1; padding-left: 0.9rem; }
+  .email-line .addr { font-family: var(--mono); font-size: 0.86rem; color: var(--ink); }
+  .email-line .e-right { display: flex; align-items: center; gap: 0.9rem; }
+  .email-line .tag { font-family: var(--mono); font-size: 0.68rem; letter-spacing: 0.08em; text-transform: uppercase; color: var(--ink-4); }
+  .copybtn {
+    position: relative; display: inline-flex; align-items: center; justify-content: center;
+    width: 30px; height: 30px; border: 1px solid var(--line); border-radius: 8px;
+    background: none; color: var(--ink-3); cursor: pointer;
+    transition: border-color 250ms ease, color 250ms ease, background 250ms ease;
+  }
+  .copybtn:hover { border-color: var(--ink); color: var(--ink); }
+  .copybtn .tip {
+    position: absolute; bottom: calc(100% + 8px); left: 50%;
+    transform: translateX(-50%) translateY(4px);
+    background: var(--ink); color: var(--paper);
+    font-family: var(--mono); font-size: 0.62rem; letter-spacing: 0.06em;
+    padding: 0.28rem 0.6rem; border-radius: 4px; white-space: nowrap;
+    opacity: 0; pointer-events: none;
+    transition: opacity 220ms ease, transform 220ms var(--ease);
+  }
+  .copybtn.copied { border-color: var(--ink); color: var(--ink); background: #f0efea; }
+  .copybtn.copied .tip { opacity: 1; transform: translateX(-50%) translateY(0); }
+  .office { font-size: 0.95rem; color: var(--ink-2); line-height: 2; }
+  .office .o { display: block; padding: 0.55rem 0; border-bottom: 1px solid var(--line); }
+  .office .o:first-child { border-top: 1px solid var(--line); }
+  .office .o small { font-family: var(--mono); font-size: 0.7rem; color: var(--ink-4); display: block; letter-spacing: 0.06em; text-transform: uppercase; }
+  .office .addr-tail { display: block; margin-top: 1.2rem; font-size: 0.88rem; color: var(--ink-3); }
+
+  /* ---------- footer ---------- */
+  footer {
+    border-top: 1px solid var(--line);
+    max-width: 1120px; margin: 0 auto; padding: 2.6rem 2.4rem 3.4rem;
+    display: flex; justify-content: space-between; align-items: baseline; gap: 2rem; flex-wrap: wrap;
+  }
+  footer .f-left { font-family: var(--mono); font-size: 0.72rem; color: var(--ink-4); letter-spacing: 0.04em; line-height: 2; }
+  footer .f-left a { color: var(--ink-3); text-decoration: none; border-bottom: 1px solid var(--line); }
+  footer .f-left a:hover { color: var(--ink); }
+  .totop {
+    font-family: var(--mono); font-size: 0.72rem; letter-spacing: 0.08em; text-transform: uppercase;
+    color: var(--ink-3); text-decoration: none; transition: color 300ms ease;
+  }
+  .totop:hover { color: var(--ink); }
+
+  /* ---------- responsive ---------- */
+  @media (max-width: 860px) {
+    .nav-links { display: none; }
+    .sec-grid { grid-template-columns: 1fr; }
+    .sec-label { margin-bottom: 1.6rem; }
+    .duo, .contact-grid { grid-template-columns: 1fr; gap: 2.4rem; }
+    .rows li { grid-template-columns: 1fr; gap: 0.25rem; }
+    .rows .go { display: none; }
+    .spectrum { opacity: 0.3; }
+    header.hero { min-height: auto; padding-top: 9rem; grid-template-columns: 1fr; gap: 2.6rem; }
+    .hero-photo { max-width: 190px; }
+    .hero-kicker { white-space: normal; }
+    body::before { display: none; }
+    section { padding: 4rem 0; }
+  }
+  @media (prefers-reduced-motion: reduce) {
+    html { scroll-behavior: auto; }
+    .rv, .mask > span { transition: none !important; opacity: 1 !important; filter: none !important; transform: none !important; }
+  }
+</style>
+</head>
+<body>
+
+<nav id="nav">
+  <div class="nav-inner">
+    <a class="wordmark" href="#top">Dier Tang<span class="zh">唐迪尔</span></a>
+    <ul class="nav-links">
+      <li><a href="#about">About</a></li>
+      <li><a href="#news">News</a></li>
+      <li><a href="#publications">Publications</a></li>
+      <li><a href="#talks">Talks</a></li>
+      <li><a href="#teaching">Teaching</a></li>
+      <li><a href="#service">Service</a></li>
+      <li><a href="#education">Education</a></li>
+      <li><a href="#contact">Contact</a></li>
+    </ul>
+  </div>
+</nav>
+
+<header class="hero" id="top">
+  <svg class="spectrum" viewBox="0 0 520 560" preserveAspectRatio="xMaxYMax meet" aria-hidden="true">
+    <g id="bars"></g>
+  </svg>
+  <figure class="hero-photo rv">
+    <img src="images/photo.jpg" alt="Derek Dier Tang" loading="eager">
+  </figure>
+  <div class="hero-text">
+    <h1 class="hero-name" id="heroName">
+      <span class="mask"><span><em>Derek</em> Dier TANG<span class="zh">唐迪尔</span></span></span>
+    </h1>
+    <p class="hero-kicker rv">PhD Student<span class="dot">·</span>Department of Mathematics<span class="dot">·</span>The University of Hong Kong</p>
+    <p class="hero-sub rv">
+      I work on <em>machine learning</em>, <em>information theory</em>,
+      <em>statistical inference</em>, and <em>scientific discovery</em> —
+      advised by Professor <a class="tlink" href="https://hkumath.hku.hk/~ghan/">Guangyue Han</a>.
+    </p>
+    <div class="hero-cta rv">
+      <a class="chip" href="mailto:tangde_math@connect.hku.hk">tangde_math@connect.hku.hk <span class="arr">→</span></a>
+      <a class="chip ghost" href="https://orcid.org/0009-0001-1691-497X">ORCID <span class="arr">↗</span></a>
+      <a class="chip ghost" href="https://github.com/tangdier03">GitHub <span class="arr">↗</span></a>
+    </div>
+  </div>
+</header>
+
+<main>
+
+  <section id="about">
+    <div class="sec-grid">
+      <div class="sec-label rv"><span class="idx">01 — About</span><h2>About</h2></div>
+      <div class="sec-body">
+        <p class="rv">I am a second-year PhD student in the <a class="tlink" href="https://hkumath.hku.hk/web/current/pg-course.php">Department of Mathematics</a> at The University of Hong Kong (expected 2029), advised by Professor <a class="tlink" href="https://hkumath.hku.hk/~ghan/">Guangyue Han</a>. I obtained my BSc degree in Mathematics from Jilin University, TAQ Honors Program in Science, in 2025.</p>
+        <p class="rv">My current research focuses on unifying <strong>machine learning</strong>, <strong>information theory</strong>, <strong>statistical inference</strong>, and <strong>scientific discovery</strong>. Key areas of interest include:</p>
+        <ul class="nums rv" style="margin-top:1.6rem">
+          <li><span>Information Theory for Learning and Inference</span></li>
+          <li><span>High-Dimensional Feature Selection and Representation Learning</span></li>
+          <li><span>Optimization in Deep Learning and Reinforcement Learning</span></li>
+          <li><span>Foundational Frameworks for AI-driven Scientific Discovery</span></li>
+        </ul>
+        <p class="rv" style="margin-top:1.6rem">I am always open to exploring new topics and long-term collaborations. Feel free to <a class="tlink" href="#contact">reach out</a> if you share similar research interests or would like to discuss potential ideas!</p>
+      </div>
+    </div>
+  </section>
+
+  <section id="news">
+    <div class="sec-grid">
+      <div class="sec-label rv"><span class="idx">02 — News</span><h2>News</h2></div>
+      <div class="sec-body">
+        <ul class="rows rv">
+          <li>
+            <a class="rowlink" href="https://2026.ieee-isit.org/">
+              <span class="d">2026-06-28 — 07-03</span>
+              <span class="x">Attended and presented at <strong>ISIT 2026</strong> held in <strong>Guangzhou, China</strong>.</span>
+              <span class="go">↗</span>
+            </a>
+          </li>
+          <li>
+            <a class="rowlink" href="https://arxiv.org/abs/2605.09396">
+              <span class="d">2026-05-10</span>
+              <span class="x"><em>Universal Feature Selection with Noisy Observations and Weak Symmetry Conditions</em> was uploaded to arXiv.</span>
+              <span class="go">↗</span>
+            </a>
+          </li>
+          <li>
+            <span class="d">2025-09-01</span>
+            <span class="x">Joined The University of Hong Kong as a PhD student.</span>
+            <span class="go"></span>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </section>
+
+  <section id="publications">
+    <div class="sec-grid">
+      <div class="sec-label rv"><span class="idx">03 — Publications</span><h2>Publications</h2></div>
+      <div class="sec-body">
+        <ul class="rows rv">
+          <li>
+            <a class="rowlink" href="https://arxiv.org/abs/2605.09396">
+              <span class="d">2026 · arXiv</span>
+              <span class="x"><em>Universal Feature Selection with Noisy Observations and Weak Symmetry Conditions</em><br><span style="font-size:0.86rem;color:var(--ink-3)">Dier Tang, Guangyue Han — arXiv preprint</span></span>
+              <span class="go">↗</span>
+            </a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </section>
+
+  <section id="talks">
+    <div class="sec-grid">
+      <div class="sec-label rv"><span class="idx">04 — Talks</span><h2>Talks</h2></div>
+      <div class="sec-body">
+        <ul class="rows rv">
+          <li>
+            <span class="d">2026-06-30 · Poster</span>
+            <span class="x"><em>Universal Feature Selection with Noisy Observations and Weak Symmetry Conditions</em><br><span style="font-size:0.86rem;color:var(--ink-3)">ISIT 2026, Guangzhou, China</span></span>
+            <span class="go"></span>
+          </li>
+          <li>
+            <span class="d">2026-06-27 · Poster</span>
+            <span class="x"><em>Beyond Spherical Symmetry: A Weakened Condition Toward Feasible Universal Feature Selection</em><br><span style="font-size:0.86rem;color:var(--ink-3)">BIID 2026, The Chinese University of Hong Kong (Shenzhen), Shenzhen, China</span></span>
+            <span class="go"></span>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </section>
+
+  <section id="teaching">
+    <div class="sec-grid">
+      <div class="sec-label rv"><span class="idx">05 — Teaching</span><h2>Teaching</h2></div>
+      <div class="sec-body">
+        <ul class="rows rv">
+          <li>
+            <span class="d">2026 · HKU</span>
+            <span class="x"><strong>MATH 1011: University Mathematics I</strong><br><span style="font-size:0.86rem;color:var(--ink-3)">Undergraduate course, The University of Hong Kong</span></span>
+            <span class="go"></span>
+          </li>
+          <li>
+            <span class="d">2026 · HKU</span>
+            <span class="x"><strong>MATH 6224 / MATH 7224: Topics in Advanced Probability Theory</strong><br><span style="font-size:0.86rem;color:var(--ink-3)">Postgraduate course, The University of Hong Kong</span></span>
+            <span class="go"></span>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </section>
+
+  <section id="service">
+    <div class="sec-grid">
+      <div class="sec-label rv"><span class="idx">06 — Service</span><h2>Service &amp; Membership</h2></div>
+      <div class="sec-body">
+        <div class="duo">
+          <div class="rv">
+            <h3>Academic Service</h3>
+            <ul class="plain">
+              <li><strong>Journal Reviewer</strong> — <em>IEEE Transactions on Information Theory</em> (TIT)</li>
+              <li><strong>Conference Reviewer</strong> — ISIT (2026)</li>
+            </ul>
+          </div>
+          <div class="rv">
+            <h3>Professional Membership</h3>
+            <ul class="plain">
+              <li>IEEE Graduate Student Member, 2026–present</li>
+              <li>SIAM Student Member, 2026–present</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="education">
+    <div class="sec-grid">
+      <div class="sec-label rv"><span class="idx">07 — Education</span><h2>Education &amp; Awards</h2></div>
+      <div class="sec-body">
+        <div class="duo">
+          <div class="rv">
+            <h3>Education</h3>
+            <ul class="plain">
+              <li><strong>PhD</strong> in Mathematics, The University of Hong Kong<br><span style="font-size:0.85rem;color:var(--ink-3)">Postgraduate Studentship (PGS), 2025 – present</span></li>
+              <li><strong>BSc</strong> in Mathematics, Jilin University<br><span style="font-size:0.85rem;color:var(--ink-3)">TAQ Honors Program in Science, 2021 – 2025</span></li>
+            </ul>
+          </div>
+          <div class="rv">
+            <h3>Past Awards</h3>
+            <ul class="plain">
+              <li><a class="tlink" href="http://www.bsef.baosteel.com/#/">Baosteel</a> Excellent Student Award</li>
+              <li>Jilin University <a class="tlink" href="https://news.jlu.edu.cn/info/1306/59502.htm">Top 10</a> Students</li>
+              <li>China National Scholarship (2022, 2023, 2024)</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="contact">
+    <div class="sec-grid">
+      <div class="sec-label rv"><span class="idx">08 — Contact</span><h2>Contact</h2></div>
+      <div class="sec-body">
+        <div class="contact-grid">
+          <div class="cblock rv">
+            <h3>Email</h3>
+            <div class="email-line">
+              <span class="addr">tangde_math@connect.hku.hk</span>
+              <span class="e-right">
+                <span class="tag">Academic</span>
+                <button class="copybtn" type="button" data-copy="tangde_math@connect.hku.hk" aria-label="Copy email address">
+                  <svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><rect x="9" y="9" width="13" height="13" rx="2"/><path d="M5 15H4a2 2 0 0 1-2-2V4a2 2 0 0 1 2-2h9a2 2 0 0 1 2 2v1"/></svg>
+                  <span class="tip">Copied!</span>
+                </button>
+              </span>
+            </div>
+            <div class="email-line">
+              <span class="addr">tangde3132@163.com</span>
+              <span class="e-right">
+                <span class="tag">Non-academic</span>
+                <button class="copybtn" type="button" data-copy="tangde3132@163.com" aria-label="Copy email address">
+                  <svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><rect x="9" y="9" width="13" height="13" rx="2"/><path d="M5 15H4a2 2 0 0 1-2-2V4a2 2 0 0 1 2-2h9a2 2 0 0 1 2 2v1"/></svg>
+                  <span class="tip">Copied!</span>
+                </button>
+              </span>
+            </div>
+          </div>
+          <div class="cblock rv">
+            <h3>Office</h3>
+            <div class="office">
+              <span class="o"><small>Research</small>Graduate House, P206</span>
+              <span class="o"><small>Dept. Shared</small>Run Run Shaw Building, 320A</span>
+              <span class="addr-tail">The University of Hong Kong · Pokfulam Road · Hong Kong</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+</main>
+
+<footer>
+  <div class="f-left">
+    © 2026 Derek Dier Tang · This page is continuously updated (last update: 2026, Sep 11)<br>
+    <a href="https://github.com/tangdier03">GitHub</a> · <a href="https://orcid.org/0009-0001-1691-497X">ORCID</a> · <a href="mailto:tangde_math@connect.hku.hk">Email</a>
+  </div>
+  <a class="totop" href="#top">Back to top ↑</a>
+</footer>
+
+<script>
+  /* --- hero spectral lines (code-drawn, monochrome) --- */
+  (function () {
+    var g = document.getElementById('bars');
+    var W = 520, H = 560, n = 46;
+    var heights = [];
+    for (var i = 0; i < n; i++) {
+      var t = i / (n - 1);
+      var env = Math.exp(-Math.pow((t - 0.42) / 0.26, 2));        // gaussian-ish envelope
+      var jitter = 0.55 + 0.45 * Math.abs(Math.sin(i * 12.9898));  // deterministic pseudo-random
+      heights.push(60 + env * jitter * 420);
+    }
+    for (var j = 0; j < n; j++) {
+      var x = 12 + j * ((W - 24) / (n - 1));
+      var h = heights[j];
+      var ln = document.createElementNS('http://www.w3.org/2000/svg', 'line');
+      ln.setAttribute('x1', x); ln.setAttribute('x2', x);
+      ln.setAttribute('y1', H); ln.setAttribute('y2', H - h);
+      ln.setAttribute('opacity', (0.06 + 0.16 * (h / 480)).toFixed(3));
+      g.appendChild(ln);
+    }
+    /* gentle parallax on scroll */
+    var svg = document.querySelector('.spectrum');
+    var reduce = window.matchMedia('(prefers-reduced-motion: reduce)').matches;
+    if (!reduce) {
+      window.addEventListener('scroll', function () {
+        var y = Math.min(window.scrollY, 600);
+        svg.style.transform = 'translateY(' + (y * 0.08) + 'px)';
+      }, { passive: true });
+    }
+  })();
+
+  /* --- hero mask reveal --- */
+  requestAnimationFrame(function () {
+    setTimeout(function () { document.getElementById('heroName').classList.add('in'); }, 120);
+  });
+
+  /* --- scroll reveal --- */
+  (function () {
+    var els = document.querySelectorAll('.rv');
+    var reduce = window.matchMedia('(prefers-reduced-motion: reduce)').matches;
+    if (reduce || !('IntersectionObserver' in window)) {
+      els.forEach(function (e) { e.classList.add('on'); });
+      return;
+    }
+    var io = new IntersectionObserver(function (entries) {
+      entries.forEach(function (en) {
+        if (en.isIntersecting) { en.target.classList.add('on'); io.unobserve(en.target); }
+      });
+    }, { threshold: 0.12, rootMargin: '0px 0px -6% 0px' });
+    els.forEach(function (e) { io.observe(e); });
+  })();
+
+  /* --- click icon to copy email --- */
+  (function () {
+    document.querySelectorAll('.copybtn').forEach(function (btn) {
+      var timer = null;
+      btn.addEventListener('click', function () {
+        var txt = btn.getAttribute('data-copy');
+        function done() {
+          btn.classList.add('copied');
+          clearTimeout(timer);
+          timer = setTimeout(function () { btn.classList.remove('copied'); }, 1800);
+        }
+        function legacy() {
+          var ta = document.createElement('textarea');
+          ta.value = txt; ta.style.position = 'fixed'; ta.style.opacity = '0';
+          document.body.appendChild(ta); ta.select();
+          try { document.execCommand('copy'); } catch (e) {}
+          document.body.removeChild(ta);
+          done();
+        }
+        if (navigator.clipboard && window.isSecureContext) {
+          navigator.clipboard.writeText(txt).then(done).catch(legacy);
+        } else {
+          legacy();
+        }
+      });
+    });
+  })();
+
+  /* --- nav hide on scroll down / reveal on scroll up --- */
+  (function () {
+    var nav = document.getElementById('nav');
+    var last = 0;
+    window.addEventListener('scroll', function () {
+      var y = window.scrollY;
+      if (y > 140 && y > last) { nav.classList.add('hidden'); }
+      else { nav.classList.remove('hidden'); }
+      last = y;
+    }, { passive: true });
+  })();
+</script>
+
+</body>
+</html>
